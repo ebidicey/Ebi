@@ -219,11 +219,11 @@ width: 100%;
   flex-direction:column;
   width:100%;
   background-color:lightblue;
-  font-size: 1.3rem;
+  font-size: 1rem;
   color: red;
   margin-top:10px;
   justify-content:center;
-  padding: 2%;
+  padding-left: 2%;
 }
 #footer-div{
   font-size: 0.5rem;
