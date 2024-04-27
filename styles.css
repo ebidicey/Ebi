@@ -8,7 +8,7 @@ body
 {
   display:flex;
   flex-direction:column;
-  width:60%;
+  width:100%;
   min-height:100px;
   margin:auto;
 }
@@ -16,7 +16,7 @@ body
 {
   display:flex;
   flex-direction:row;
-  width:98%;
+  width:100%;
   min-height:50px;
   background-color:lightblue;
   justify-content: space-between;
@@ -132,7 +132,7 @@ width: 100%;
 #main-div
 {
   display:flex;
-  flex-direction:column;
+  flex-direction:row;
   width:100%;
   min-height:500px;
   margin-top:10px;
@@ -166,7 +166,7 @@ width: 100%;
 #About-div
 { display:flex;
   flex-direction:column;
-  flex-basis: 60%;
+  flex-basis: 100%;
   background-color: lightblue;
   color: blue;
   justify-content: flex-start;
@@ -185,7 +185,7 @@ width: 100%;
 #sidebar-div
 {		display:flex;
   flex-direction:column;
-  flex-basis:23%;
+  width:90%;
   background-color:lightgreen;
   border-radius: 15px;
   color: Red;
@@ -213,8 +213,20 @@ width: 100%;
 }
 /* .....................css for small screens........ */
 @media only screen and (max-width: 600px){
-
-
+#header-banner-div
+{
+  display:flex;
+  flex-direction:column;
+  width:100%;
+  background-color:lightblue;
+  font-size: 1.5rem;
+  color: red;
+  margin-top:10px;
+  justify-content:center;
+  align-items:center;
+}
+#footer-div{
+  font-size: 0.5rem;
 
 }
 </style>
